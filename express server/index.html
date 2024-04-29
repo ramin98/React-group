@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div id="filter"><button>NAME</button> <button>CITY</button><button>NAME AND CITY</button></div>
+    <p id="choose"></p>
+    <input id="search-name" type="text" />
+    <input id="search-city" type="text" />
+    <ul id="list"></ul> -->
+    <form action="http://localhost:5000/search" method="get">
+      <input type="text" name="term1" placeholder="Введите запрос" />
+      <input type="text" name="term2" placeholder="Введите запрос" />
+      <input type="text" name="term3" placeholder="Введите запрос" />
+      <button type="submit">Поиск</button>
+    </form>
+    <form action="http://localhost:5000/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="myfile">
+      <button type="submit">Загрузить</button>
+  </form>
+    <script src="script.js"></script>
+  </body>
+</html>
