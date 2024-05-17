@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+#list {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#list li {
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+#list li:first-child {
+    border-top: 2px solid black;
+}
+
+#list li button {
+    margin: 0 auto;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+    display: block;
+}
+#chat {
+    padding: 20px;
+}
+#messages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#messages li {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+.message-arrea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.from-messages {
+    align-self: flex-end;
+    background-color: blue;
+}
+
+.to-messages {
+    align-self: flex-start;
+    background-color: aquamarine;
+
+}
+
+.message-arrea{
+    width: 100%;
+}
+
+.message-forms{
+    width: 100%;
+}
+
+.uploads-forms{
+    width: 100%;
+}
+
+form button{
+    font-size: 20px;
+}
+
+form input{
+    width: 100%;
+    padding: 30px;
+    font-size: 20px;
+
+}
